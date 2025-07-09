@@ -488,8 +488,6 @@ docker exec -it soclose-redis redis-cli
 | Prefixing des clés  | Organisation des entrées Redis (`plante:<nom>`)         |
 | Gain de performance | Temps de réponse réduit grâce au cache Redis            |
 
----
-
 ### Si vous souhaitez aller plus loin
 
 - Ajouter un middleware pour chronométrer le temps de réponse
