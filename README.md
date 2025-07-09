@@ -50,16 +50,16 @@ Voici les étapes pour charger les données :
 
 1. **Générez les données** en suivant [les instructions dans le dossier script](scripts/README.md).
    - uniquement [les données pour PostreSQL pour l'instant](scripts/README.md#génération-des-données-pour-postgresql-generate_so_close_datapy)
-2. **Créez les tables** en exécutant le script `scripts/create_tables.sql` :
+2. **Créez les tables** en exécutant le script `scripts/create-tables.sql` :
 
 ```bash
-docker compose exec -it postgres psql -U so_close_user -d so_close_db -f scripts/create_tables.sql
+docker compose exec -it postgres psql -U so_close_user -d so_close_db -f /sql/create-tables.sql
 ```
 
 3. **Insérez les données** en exécutant le script `scripts/load_data.sql` :
 
 ```bash
-docker compose exec -it postgres psql -U so_close_user -d so_close_db -f scripts/load_data.sql
+docker compose exec -it postgres psql -U so_close_user -d so_close_db -f /sql/load-data.sql
 ```
 
 4. **Vérifiez les données** avec une requête simple :
