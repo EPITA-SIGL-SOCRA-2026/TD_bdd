@@ -82,7 +82,7 @@ Le script va :
 Pour générer des données pour MongoDB, exécutez le script Python avec les paramètres souhaités. Par exemple, pour créer 1000 documents avec 100 jardins, 156 plantes et 500 jardiniers :
 
 ```bash
-python generate_cultures_comments.py --nb_jardins 10000 --nb_plantes 156 --nb_jardiniers 500
+python generate_cultures_comments.py --nb-jardins 10000 --nb-plantes 156 --nb-jardiniers 500
 ```
 
 Le script va :
