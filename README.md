@@ -189,6 +189,30 @@ db.commentaires.find().limit(10).pretty()
 
 - `Q1:` Trouvez tous les commentaires pour la plante avec l'ID `8`
 - `Q2:` Top 5 des plantes les plus commentées (regardez la fonction `aggregate` de MongoDB)
+
+> Essayez cette requête :
+>
+> ```js
+> db.commentaires.aggregate([
+>   {
+>     $unwind: "$commentaires",
+>   },
+>   {
+>     $group: {
+>       _id: "$_id",
+>       plante_id: { $first: "$plante_id" },
+>       commentairesCount: { $sum: 1 },
+>     },
+>   },
+>   {
+>     $sort: { commentairesCount: -1 },
+>   },
+>   {
+>     $limit: 5,
+>   },
+> ]);
+> ```
+
 - `Q3:`Le jardin le plus commenté (regardez la finction `aggregate` de MongoDB et `$unwind`)
 
 #### Quelles différences entre MongoDB et PostgreSQL ?
