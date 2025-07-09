@@ -49,7 +49,7 @@ docker compose exec -it postgres psql -U so_close_user -d so_close_db
 Voici les étapes pour charger les données :
 
 1. **Générez les données** en suivant [les instructions dans le dossier script](scripts/README.md).
-   - uniquement pour PostreSQL pour l'instant
+   - uniquement [les données pour PostreSQL pour l'instant](scripts/README.md#génération-des-données-pour-postgresql-generate_so_close_datapy)
 2. **Créez les tables** en exécutant le script `scripts/create_tables.sql` :
 
 ```bash
@@ -134,7 +134,7 @@ docker compose up -d postgres
 
 ---
 
-## Exemple de SGBD Doumentaire: 🍃 MongoDB
+## Exemple de SGBD Documentaire: 🍃 MongoDB
 
 **Objectif**: Utiliser MongoDB pour stocker des commentaires sur les différentes cultures.
 
@@ -157,7 +157,7 @@ docker compose exec -it mongo mongosh --username so_close_user --password so_clo
 À ce stade, la base de données est vide.
 Voici les étapes pour charger les données :
 
-1. **Générez les données pour MongoDB** en suivant [les instructions dans le dossier script](scripts/README.md#génération-de-données-pour-mongodb-generate_cultures_commentspy).
+1. **Générez les données pour MongoDB** en suivant [les instructions dans le dossier script pour MongoDB](scripts/README.md#génération-de-données-pour-mongodb-generate_cultures_commentspy).
 2. **Insérez les données** en utilisant `mongoimport`
 
 ```bash
@@ -187,11 +187,18 @@ db.commentaires.find().limit(10).pretty()
 
 #### 🔎 Énigmes à résoudre
 
-1. Trouvez tous les commentaires pour la plante avec l'ID `8`
-1. Top 5 des plantes les plus commentées (regardez la fonction `aggregate` de MongoDB)
-1. Le jardin le plus commenté (regardez la finction `aggregate` de MongoDB et `$unwind`)
+- `Q1:` Trouvez tous les commentaires pour la plante avec l'ID `8`
+- `Q2:` Top 5 des plantes les plus commentées (regardez la fonction `aggregate` de MongoDB)
+- `Q3:`Le jardin le plus commenté (regardez la finction `aggregate` de MongoDB et `$unwind`)
 
-Que notez vous comme différences entre MongoDB et PostgreSQL ?
+#### Quelles différences entre MongoDB et PostgreSQL ?
+
+- MongoDB est plus adapté pour ce type de données hétérogènes ou liées à des utilisateurs.
+- Pas besoin de gérer les JOIN entre commentaires, utilisateurs et plantes.
+- Les structures peuvent évoluer dans le temps (nouveaux champs, formats…).
+- Language de requête différent (MongoDB utilise `JavaScript` et un sorte `JSON` amélioré pour les requêtes)
+- Pas de schéma de base de données rigide, les documents peuvent varier dans une même collection
+  - essayez par vous même: insérez un document avec des champs complètement différentes dans la collection `commentaires`
 
 ---
 
@@ -207,7 +214,7 @@ Que notez vous comme différences entre MongoDB et PostgreSQL ?
 docker compose up -d cassandra
 ```
 
-> Note: Cassandra peut prendre un peu de temps pour démarrer, soyez patient.
+> Note: Cassandra peut prendre 1 à 2 minutes pour démarrer
 
 2. Assurez vous que vous pouvez vous connecter au shell Cassandra
 
