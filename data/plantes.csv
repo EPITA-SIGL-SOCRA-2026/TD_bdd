@@ -1,0 +1,158 @@
+id,nom_commun,nom_latin,port,strate,rusticite
+1,acanthe à feuilles molles,acanthus mollis,touffe,médiane,-25
+2,kiwaï / kiwi de siberie,actinidia arguta,grimpant,grimpante,-25
+3,kiwi,actinidia chinensis,grimpant,grimpante,-15
+4,akebies/ vigne chocolat,akebia spp,grimpant,grimpante,-20
+5,albizia/ arbre à soie,albizia julibrissin,arbustif arrondi,arbre,-25
+6,poireau perpetuel,allium ampeloprasum,tige,basse,-25
+7,oignon rocambole,allium cepa var. proliferatum,touffe,basse,-30
+8,ail des ours,allium ursinum,acaule,basse,-20
+9,aulne de corse,alnus cordata,arbustif élancé,canopée,-15
+10,aulne blanc,alnus incana,arbustif élancé,arbre,-30
+11,amélanchier à feuilles d aulne,amelanchier alnifolia,buissonnant élancé,arbrisseau,-29
+12,amélanchier,amelanchier canadensis,buissonnant élancé,arbrisseau,-18
+13,faux indigo,amorpha fruticosa,buissonnant arrondi,arbrisseau,-40
+14,arbousier,arbutus unedo,buissonnant élancé,arbre,-5
+15,aronia,aronia mitshurinii,buissonnant élancé,médiane,-40
+16,absinthe,artemisia absinthium,touffe,médiane,-20
+17,asiminier,asimina triloba,arbustif arrondi,arbrisseau,-10
+18,aster,aster,tapissant,basse,-29
+19,bambous,bambusa,touffe,arbre,-10
+20,épine vinette,berberis spp,buissonnant arrondi,arbrisseau,-15
+21,blette,beta vulgaris,acaule,basse,-22
+22,bette maritime,beta vulgaris subsp. maritima,acaule,basse,-30
+23,bouleau pubescent/bouleau blanc,betula pubescens,arbustif élancé,canopée,-15
+24,bourrache,borago officinalis,touffe,basse,-20
+25,chou vivace,brassica oleracea 'daubenton',buissonnant arrondi,basse,-20
+26,châtaigne de terre,bunium bulbocastanum,touffe,basse,-12
+27,buis,buxus sempervirens,buissonnant élancé,arbrisseau,-15
+28,souci,calendula officinalis,tige,basse,-15
+29,bruyère,calluna vulgaris,buissonnant arrondi,basse,-28
+30,campanule vivace,campanula lactiflora,acaule,basse,-15
+31,caraganier de siberie / acacia jaune,caragana arborescens,buissonnant élancé,arbre,-24
+32,charme,carpinus betulus,buissonnant élancé,canopée,-15
+33,cassie/ senné,cassia corymbosa,buissonnant élancé,médiane,-30
+34,châtaignier,castanea sativa,arbustif élancé,canopée,-20
+35,lilas de californie,ceanothus thyrsiflorus,buissonnant arrondi,médiane,-12
+36,valeriane rouge,centranthus ruber,tige,basse,-20
+37,arbre de judée,cercis siliquastrum,buissonnant élancé,arbre,-25
+38,cognassier du japon,chaenomeles spp,buissonnant arrondi,médiane,-15
+39,citronnier yuzu,citrus ichangensis × citrus reticulata var.austera,arbustif arrondi,arbrisseau,-15
+40,baguenaudier,colutea arborescens,buissonnant arrondi,arbrisseau,-25
+41,cornouiller mâle,cornus mas,buissonnant élancé,arbrisseau,-7
+42,coronille,coronilla valentina,buissonnant arrondi,médiane,-8
+43,noisetier,corylus avelana,buissonnant élancé,arbrisseau,-25
+44,noisetier de byzance,corylus colurna,arbustif élancé,arbre,-22
+45,crambe maritime,crambe maritima,acaule,basse,-29
+46,"aubépine ""fruitière""",crataegus monogyna,buissonnant arrondi,arbrisseau,-15
+47,cognassier,cydonia oblonga,arbustif arrondi,arbrisseau,-15
+48,cardon,cynara cardunculus,tige,médiane,-3
+49,souchet comestible,cyperus esculentus,touffe,basse,-15
+50,œillet,dianthus,acaule,basse,-15
+51,plaqueminier de chine,diospyros kaki,arbustif arrondi,arbre,-15
+52,roquette vivace,diplotaxis tenuifolia,acaule,basse,-20
+53,échinacée pourpre,echinacea purpurea,tige,basse,-20
+54,olivier de bohême,elaeagnus angustifolia,arbustif arrondi,arbrisseau,-15
+55,goumi du japon,elaeagnus multiflora,buissonnant arrondi,arbrisseau,-15
+56,olivier d automne,elaeagnus umbellata,buissonnant arrondi,arbrisseau,-20
+57,chalef de ebbing,elaeagnus x ebbingei,buissonnant élancé,arbrisseau,-15
+58,néflier du japon,eriobotrya japonica,arbustif arrondi,arbre,-15
+59,sarrasin vivace,fagopyrum dibotrys,tige,basse,-25
+60,goyave du bresil,feijoa sellowiana,buissonnant arrondi,arbrisseau,-20
+61,figuier,ficus carica,buissonnant arrondi,arbrisseau,-18
+62,fenouil vivace,foeniculum vulgare,touffe,médiane,-20
+63,fraisier,fragaria moschata,tapissant,basse,-35
+64,fraisier sauvage,fragaria vesca,tapissant,basse,-18
+65,frene,fraxinus excelsior,arbustif élancé,canopée,-20
+66,ginkgo biloba,ginkgo biloba,arbustif élancé,arbre,-30
+67,févier d'amérique,gleditsia triacanthos,arbustif élancé,canopée,-20
+68,réglisse glabre,glycyrrhiza glabra,tige,médiane,-10
+69,thé des centenaires,gymnostemma pentaphyllum,grimpant,grimpante,-30
+70,lierre commun,hedera helix,grimpant,basse,-15
+71,immortelle d'italie,helichrysum italicum,touffe,basse,-20
+72,lys d'un jour,hemerocallis fulva,acaule,basse,-25
+73,argousier,hipophae rhamnoides,buissonnant élancé,arbrisseau,-15
+74,hostas,hosta tardiana,acaule,basse,-15
+75,raisinier de chine,hovenia dulcis,arbustif arrondi,canopée,-10
+76,houblon,humulus lupulus,grimpant,grimpante,-25
+77,millepertuis,hypericum perforatum,tige,basse,-25
+78,corbeille d'argent,iberis sempervirens,tapissant,basse,-20
+79,indigotier rose,indigofera heterantha,buissonnant arrondi,médiane,-15
+80,noyer commun,juglans regia,arbustif arrondi,canopée,-15
+81,savonnier,koelreuteria paniculata,arbustif arrondi,arbre,-20
+82,laurier sauce,laurus nobilis,buissonnant élancé,arbre,-15
+83,lavande,lavandula ssp,buissonnant arrondi,médiane,-25
+84,lespedeza de thunberg,lespedeza thunbergii,buissonnant élancé,médiane,-13
+85,livèche,levisticum officinale,touffe,médiane,-23
+86,arbre aux faisans,leycesteria formosa,buissonnant élancé,médiane,-10
+87,camérisier bleu,lonicera caerulea,buissonnant arrondi,médiane,-15
+88,baie de mai,lonicera kamtschatica,buissonnant arrondi,médiane,-20
+89,lupin arborescent/lupin en arbre,lupinus arboreus,tige,médiane,-25
+90,lyciet de barbarie/ goji,lycium barbarum,grimpant,médiane,-30
+91,baie de goji,lycium chinense,buissonnant arrondi,médiane,-20
+92,mahonia,mahonia aquifolium,buissonnant arrondi,médiane,-23
+93,pommier,malus pumila,buissonnant arrondi,arbre,-25
+94,mauve musquée,malva moschata,touffe,basse,-20
+95,grande mauve,malva sylvestris,tige,basse,-30
+96,camomille matricaire,matricaria recutita,touffe,basse,-10
+97,luzerne,medicago sativa,tige,basse,-30
+98,melilot,melilotus officinalis,tige,médiane,-20
+99,mélisse officinale/ mélisse citronnelle,melissa officinalis,touffe,basse,-10
+100,menthe verte,mentha spicata,touffe,basse,-30
+101,néflier d'allemagne,mespilus germanica,buissonnant arrondi,arbrisseau,-20
+102,herbe à éléphant,miscanthus giganteus,touffe,médiane,-15
+103,mûrier,morus alba,arbustif arrondi,arbrisseau,-30
+104,onagre bisannuelle,oenothera biennis,tige,médiane,-10
+105,olivier,olea europea,arbustif arrondi,arbre,-25
+106,origan,origanum vulgare,tapissant,basse,-40
+107,pin pignon,pinus pinea,arbustif arrondi,canopée,-22
+108,abricotier,prunus armeniaca,arbustif arrondi,arbrisseau,-20
+109,cerisier,prunus cerasus,arbustif arrondi,arbrisseau,-15
+110,prunier,prunus domestica,arbustif élancé,arbre,-8
+111,amandier,prunus dulcis,arbustif arrondi,arbre,-20
+112,laurier du portugal,prunus lusitanica,buissonnant élancé,arbre,-15
+113,pêcher,prunus persica,buissonnant arrondi,arbrisseau,-15
+114,prunellier,prunus spinosa,buissonnant arrondi,arbrisseau,-20
+115,ragouminier,prunus tomentosa,buissonnant arrondi,arbrisseau,-15
+116,grenadier,punica granatum,buissonnant arrondi,arbrisseau,-26
+117,poirier,pyrus communis,arbustif élancé,arbre,-10
+118,nashi,pyrus pyrifolia,arbustif arrondi,arbrisseau,-20
+119,chêne vert à gland doux,quercus ilex ssp ballota,arbustif arrondi,arbre,-15
+120,rhubarbe des jardins,rheum spp,acaule,médiane,-20
+121,cassissier,ribes nigrum,buissonnant élancé,arbrisseau,-15
+122,groseiller à grappes,ribes rubrum,buissonnant élancé,médiane,-15
+123,groseillier à maquereaux,ribes uva crispa,buissonnant élancé,médiane,-29
+124,casseille,ribes x nidigrolaria,buissonnant élancé,arbrisseau,-15
+125,robinier,robinia pseudoacacia,arbustif élancé,canopée,-25
+126,rosier de damas,rosa damascena,buissonnant arrondi,médiane,-30
+127,romarin,rosmarinus officinalis,buissonnant arrondi,médiane,-22
+128,ronce,rubus fruticosus,buissonnant arrondi,médiane,-15
+129,framboise,rubus idaeus,touffe,médiane,-34
+130,framboise noire,rubus occidentalis,grimpant,arbrisseau,-25
+131,mûroise,rubus x logannobaccus,grimpant,grimpante,-30
+132,oseille patience,rumex patientia,acaule,basse,-25
+133,saule blanc,salix alba,arbustif élancé,canopée,-20
+134,saule des vanniers,salix viminalis,arbustif élancé,canopée,-15
+135,sauge officinale,salvia officinalis,buissonnant arrondi,médiane,-15
+136,sureau noir,sambucus nigra,buissonnant arrondi,arbrisseau,-10
+137,sureau à grappes,sambucus racemosa,buissonnant arrondi,arbrisseau,-18
+138,sarriette rampante,satureja spicigera,tapissant,basse,-20
+139,orpin remarquable,sedum spectabile,touffe,basse,-17
+140,sorbier des oiseleurs,sorbus aucuparia,arbustif élancé,canopée,-15
+141,cormier,sorbus domestica,arbustif élancé,canopée,-15
+142,consoude officinale,symphytum officinalis,acaule,basse,-15
+143,tanaisie,tanacetum vulgare,tige,basse,-15
+144,arbre à miel,tetradium daniellii,arbustif arrondi,arbre,-20
+145,thym luisant,thymus nitens,tapissant,basse,-20
+146,tilleul à petites feuilles,tilia cordata,arbustif arrondi,canopée,-15
+147,tilleul de hongrie,tilia henryana,arbustif arrondi,arbre,-18
+148,tussilage,tussilago farfara,acaule,basse,-20
+149,ortie dioïque,urtica dioica,tige,médiane,40
+150,myrtillier,vaccinium myrtillus,buissonnant arrondi,médiane,-30
+151,laurier tin,viburnum tinus,buissonnant arrondi,arbrisseau,-20
+152,petite pervenche,vinca minor,tapissant,basse,-30
+153,violette odorante,viola odorata,acaule,basse,-25
+154,gattilier / arbre aux moines,vitex agnus castus,buissonnant arrondi,arbrisseau,-20
+155,vigne,vitis vinifera,grimpant,grimpante,-20
+156,poivrier de sichuan,zanthoxylum simulans,buissonnant élancé,arbrisseau,-15
+157,jujubier,ziziphus jujuba,arbustif élancé,arbre,-15

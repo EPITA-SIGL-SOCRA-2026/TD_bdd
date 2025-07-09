@@ -1,0 +1,2 @@
+COPY so_close.cultures_par_jardin FROM '/data/cultures_recoltes_par_jardin_cassandra.csv' WITH DELIMITER=',' AND HEADER=TRUE;
+COPY so_close.cultures_par_plante FROM '/data/cultures_recoltes_par_plante_cassandra.csv' WITH DELIMITER=',' AND HEADER=TRUE;

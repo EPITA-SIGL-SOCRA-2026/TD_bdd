@@ -1,0 +1,59 @@
+services:
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: so_close_user
+      POSTGRES_PASSWORD: so_close_password
+      POSTGRES_DB: so_close_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./data:/data
+      - ./sql:/sql
+
+  mongo:
+    image: mongo:8
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: so_close_user
+      MONGO_INITDB_ROOT_PASSWORD: so_close_password
+      MONGO_INITDB_DATABASE: so_close_db
+    volumes:
+      - mongo_data:/data/db
+      - ./data:/data
+  cassandra:
+    image: cassandra:5
+    environment:
+      CASSANDRA_USER: so_close_user
+      CASSANDRA_PASSWORD: so_close_password
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+      - ./data:/data
+      - ./cql:/cql
+  neo4j:
+    image: neo4j:5.26
+    environment:
+      NEO4J_AUTH: neo4j/so_close_password
+      NEO4J_dbms_connector_http_listen__address: 0.0.0.0:7474
+      NEO4J_dbms_connector_bolt_listen__address: 0.0.0.0:7687
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - neo4j_data:/data
+  redis:
+    image: redis:8
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  postgres_data:
+    driver: local
+  mongo_data:
+    driver: local
+  cassandra_data:
+    driver: local
+  neo4j_data:
+    driver: local
+  redis_data:
+    driver: local
