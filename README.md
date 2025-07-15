@@ -260,10 +260,10 @@ Voici les étapes pour charger les données :
 docker compose exec -it cassandra cqlsh -f /cql/create-keyspace.cql
 ```
 
-3. **Créez les tables** en exécutant le script `cql/create-tables.cql` :
+3. **Créez les tables** en exécutant le script `cql/create-table.cql` :
 
 ```bash
-docker compose exec -it cassandra cqlsh -f /cql/create-tables.cql
+docker compose exec -it cassandra cqlsh -f /cql/create-table.cql
 ```
 
 4. **Insérez les données** en exécutant le script `cql/load-data.cql` :
