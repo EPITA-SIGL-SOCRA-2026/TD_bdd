@@ -253,23 +253,23 @@ docker compose exec -it cassandra cqlsh
 Voici les étapes pour charger les données :
 
 1. **Générez les données pour Cassandra** en suivant [les instructions dans le dossier script](scripts/README.md#génération-de-données-pour-cassandra-generate_cultures_recoltespy).
-2. **Créez le "schéma" (en réalité un ["keyspace"]())** en exécutant le script
-   `cql/create_keyspace.cql` :
+2. **Créez le "schéma" (en réalité un ["keyspace"](https://cassandra.apache.org/doc/4.0/cassandra/cql/ddl.html))** en exécutant le script
+   `cql/create-keyspace.cql` :
 
 ```bash
-docker compose exec -it cassandra cqlsh -f /cql/create_keyspace.cql
+docker compose exec -it cassandra cqlsh -f /cql/create-keyspace.cql
 ```
 
-3. **Créez les tables** en exécutant le script `cql/create_tables.cql` :
+3. **Créez les tables** en exécutant le script `cql/create-tables.cql` :
 
 ```bash
-docker compose exec -it cassandra cqlsh -f /cql/create_tables.cql
+docker compose exec -it cassandra cqlsh -f /cql/create-tables.cql
 ```
 
-4. **Insérez les données** en exécutant le script `cql/load_data.cql` :
+4. **Insérez les données** en exécutant le script `cql/load-data.cql` :
 
 ```bash
-docker compose exec -it cassandra cqlsh -f /cql/load_data.cql
+docker compose exec -it cassandra cqlsh -f /cql/load-data.cql
 ```
 
 ### 🔎 Énigmes à résoudre
