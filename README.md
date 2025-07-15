@@ -350,7 +350,7 @@ docker compose up -d neo4j
 ```
 
 2. Vérifiez que vous pouvez vous connecter à l'interface web de Neo4j :
-   http://localhost:7474
+   http://0.0.0.0:7474
 
 3. Connectez-vous avec les identifiants par défaut (dans le [`docker-compose.yml`](docker-compose.yml)) :
    - **Utilisateur** : `neo4j`
